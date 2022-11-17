@@ -1,7 +1,7 @@
 #!/bin/bash
 
 substr="Hello"
-if [[ $var == "$substr"* ]];
+if [[ $var =~ "$substr"* ]];
 then
     echo "Success."
 else
